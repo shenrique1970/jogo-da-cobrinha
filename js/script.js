@@ -3,9 +3,6 @@ let context = canvas.getContext("2d"); //....
 
 document.body.style.backgroundColor = "green";
 
-
-  
-
 let box = 32;
 let snake = []; //criar cobrinha como lista, já que ela vai ser uma série de coordenadas, que quando pintadas, criam os quadradinhos
 snake[0] ={
